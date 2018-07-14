@@ -1,10 +1,12 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'ch.aquint'
 version '1.0'
 
+mainClassName = 'ch.aquint.RedissonClassCastException'
 sourceCompatibility = 1.8
 
 repositories {

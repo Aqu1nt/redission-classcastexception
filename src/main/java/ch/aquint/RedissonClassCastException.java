@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RedissionClasscastException {
+public class RedissonClassCastException {
 
   public static void main(String[] args) {
-    SpringApplication.run(RedissionClasscastException.class);
+    SpringApplication.run(RedissonClassCastException.class);
   }
 }
